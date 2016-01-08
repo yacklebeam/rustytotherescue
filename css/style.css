@@ -1,7 +1,21 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #eadbc7;
+}
+
 body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 100;
    background-color: #eee2d2;
+   margin-bottom: 120px;
 }
 
 p {
@@ -175,4 +189,13 @@ CUSTOM SOCIAL ICONS
 
 .social .fa-instagram:hover {
     background: #375989;
+}
+
+.container-f {
+  width: auto;
+  max-width: 680px;
+}
+.container-f .text-muted {
+  margin: 20px 0;
+  color: #666666;
 }
